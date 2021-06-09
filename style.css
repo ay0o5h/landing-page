@@ -1,0 +1,272 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Poppins', sans-serif;
+  height: 100%;
+}
+
+header {
+  background-image: url(./img/rectangle-17.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+  text-align: center;
+}
+
+header .overlay {
+  background-color: rgba(0, 0, 253, 0.3);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+header .overlay .content {
+  color: white;
+}
+
+header .overlay .content h1 {
+  font-size: 100px;
+  font-weight: 100;
+  margin-top: 129px;
+}
+
+header .overlay .content p {
+  font-size: 18px;
+  width: 35%;
+  margin: auto;
+  margin-top: 36px;
+}
+
+header .overlay .content button {
+  margin-top: 36px;
+  color: white;
+  background-color: #325DFF;
+  width: 307px;
+  height: 72px;
+  border: 0;
+  outline: none;
+  border-radius: 36px;
+  font-weight: bold;
+}
+
+header nav {
+  height: 80px;
+  padding: 30px 0;
+}
+
+header nav h1 {
+  font-size: 28px;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+header nav ul {
+  margin-top: 10px;
+}
+
+header nav ul li {
+  list-style: none;
+  float: left;
+  margin-right: 33px;
+  font-size: 12px;
+  font-family: 'Poppins', sans-serif;
+}
+
+header nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+main {
+  background-color: #FAFAFA;
+  padding: 100px 0;
+  text-align: center;
+}
+
+main h1 {
+  font-size: 35px;
+  font-weight: 100;
+}
+
+main p {
+  font-size: 16px;
+  width: 50%;
+  margin: auto;
+  color: rgba(0, 0, 0, 0.5);
+  margin-top: 5px;
+}
+
+main .cards {
+  margin-top: 64px;
+}
+
+main .cards .container {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main .cards .card {
+  background-color: #ffffff;
+  border: .5 solid #CECECE;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 33.333333%;
+          flex: 0 0 33.333333%;
+  width: 300px;
+  margin-top: 30px;
+  height: 374px;
+}
+
+main .cards .card h5 {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+main .cards .card p {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+main .cards .card i {
+  height: 88px;
+  width: 88px;
+  color: white;
+  background-color: #325DFF;
+  border-radius: 50%;
+  margin: 35px 0;
+  padding-top: 25px;
+}
+
+.section3 {
+  text-align: center;
+  background-image: url(./img/Image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 700px;
+  color: white;
+}
+
+.section3 .overlay {
+  background-color: rgba(21, 116, 185, 0.3);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.section3 img {
+  margin-top: 19%;
+}
+
+.section3 h1 {
+  font-size: 35px;
+  font-weight: 100;
+  margin-top: 66px;
+}
+
+.section3 p {
+  font-size: 16px;
+  width: 50%;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.section4 {
+  text-align: center;
+  background-color: #FAFAFA;
+  padding: 100px 0;
+}
+
+.section4 h1 {
+  font-size: 35px;
+  font-weight: 100;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.section4 p {
+  font-size: 16px;
+  width: 50%;
+  margin: auto;
+  margin-top: 10px;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.section5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.section5 div {
+  margin-top: 100px;
+  text-align: left;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  padding: 100px;
+}
+
+.section5 h1 {
+  font-size: 50px;
+  font-weight: 100;
+}
+
+.section5 p {
+  font-size: 16px;
+  width: 70%;
+  color: rgba(0, 0, 0, 0.4);
+  margin-top: 30px;
+}
+
+.section5 button {
+  margin-top: 40px;
+  float: left;
+  color: white;
+  background-color: #325DFF;
+  width: 307px;
+  height: 72px;
+  border: 0;
+  outline: none;
+  border-radius: 36px;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #325DFF;
+  color: white;
+  text-align: center;
+  height: 140px;
+}
+
+footer p {
+  font-size: 20px;
+  padding-top: 52px;
+}
+/*# sourceMappingURL=style.css.map */
